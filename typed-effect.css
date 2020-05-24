@@ -1,0 +1,10 @@
+.typed-effect::after {
+	visibility: visible;
+	opacity: 1;
+	content: "|";
+	animation: cursor-blink 1s steps(2, start) infinite;
+}
+
+@keyframes cursor-blink {
+	to { visibility: hidden; }
+}
